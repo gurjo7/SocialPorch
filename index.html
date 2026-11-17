@@ -1,73 +1,10 @@
-html
+
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SocialPorch — Your postcode daily brief, games & perks</title>
-  <script src="https://tailwindcss.com"></script>
-  <script crossorigin src="https://unpkg.com"></script>
-  <script crossorigin src="https://unpkg.com"></script>
-  <script src="https://unpkg.com"></script>
-</head>
-<body class="bg-slate-950 text-slate-100 antialiased">
-  <div id="root"></div>
-
-  <script type="text/babel">
-    const { useState, useEffect } = React;
-
-    const CITY_PRESETS = {
-      WV4: {
-        city: 'Wolverhampton',
-        council: 'City of Wolverhampton Council',
-        badge: 'Proper Yam Yam',
-        accentName: 'Black Country / West Mids',
-        greetingLocal: "Ay up WV4! Here's your Black Country SocialPorch brief for Tuesday.",
-        greetingClear: 'Good afternoon WV4. Here is your Wolverhampton SocialPorch local briefing.',
-        fuelPrice: 155.6,
-        fuelStation: 'Blakenhall Service Station (WV2)',
-        club: 'Wolves FC',
-        clubStat: '4th in Championship (28 pts • 1 pt off 1st) • Next: vs Charlton (Sat Nov 21)',
-        trafficSummary: 'Broad St closed; A449 Penn Rd moving well',
-        trafficAlerts: [
-          'Broad Street (WV1): Closed for Network Rail bridge works — buses diverted via Ring Rd.',
-          'A449 Penn Road & Warstones Rd (WV4): Flowing freely today.',
-          'M54 J1–J2: Normal daytime flow (overnight closures 21:00–06:00).'
-        ],
-        railStation: 'Wolverhampton Station (WV1)',
-        newsItems: [
-          'Broad Street bridge diversion active today; Metro & M54 running smoothly.',
-          'UK E10 petrol drops 8.9p/L over past month — cheapest near WV4 is 155.6p.',
-          'Bright & crisp across Wolverhampton today (6°C) after overnight frost.'
-        ],
-        pollQuestion: 'Did you have to de-ice the car in WV4 this morning?',
-        offer: {
-          tier: 1,
-          business_name: 'Penn & Merry Hill Coffee Roasters',
-          offer_headline: 'Free Pastry with Any Morning Coffee Before 10:30 AM',
-          promo_code: 'WV4MORNING'
-        }
-      },
-      M1: {
-        city: 'Manchester',
-        council: 'Manchester City Council',
-        badge: 'Mancunian Mover',
-        accentName: 'Mancunian / North West',
-        greetingLocal: "Alright our kid! Here's your Mancunian SocialPorch update for M1.",
-        greetingClear: 'Good afternoon M1. Here is your Manchester SocialPorch local briefing.',
-        fuelPrice: 158.9,
-        fuelStation: 'Asda Hulme Superstore (M15)',
-        club: 'Man City & Man Utd',
-        clubStat: 'Premier League Derby Watch • Metrolink Good Service across all zones',
-        trafficSummary: 'Mancunian Way steady; Deansgate works',
-        trafficAlerts: [
-          'Deansgate & Princess St (M1): Minor lane restrictions for utility works.',
-          'Mancunian Way (A57M): Moving steadily in both directions.',
-          'Metrolink Trams: Good service across all Manchester lines.'
-        ],
-        railStation: 'Manchester Piccadilly (M1)',
-        newsItems: [
-          'Metrolink trams running on time across all Manchester zones today.',
+  <title>SocialPorch — Your postcode 
           'Cheapest unleaded near M1 is 158.9p/L at Asda Hulme (6.4p below UK avg).',
           'Crisp sunshine in Manchester today (6°C) with light winds.'
         ],
